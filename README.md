@@ -18,10 +18,10 @@ PYNQ users can now create high performance embedded applications with
 See the <a href="http://www.pynq.io/" target="_blank">PYNQ webpage</a> for an overview of the project, and find <a href="http://pynq.readthedocs.io" target="_blank">documentation on ReadTheDocs</a> to get started. 
 
 ## Overview
-This demo utilizes 11 different partial reconfigurable regions that are connected to a AXI-Stream switch.
+This demo utilizes 11 different partial reconfigurable regions that are connected to an AXI-Stream switch.
 This Video Pipeline connects both to the raw HDMI ports as well the VDMA.
 This allows for configurable combinations of different hardware video filters with very little latency (<600 clock cycles) at 1080p 60fps.
-The Fitlers are:
+The Filters are:
 
 - ASCII text overlay
 - Dilate
@@ -31,7 +31,7 @@ The Fitlers are:
 - Green Screen
 - Image Overlay
 - Invert
-- Japanese Hirigana text overlay
+- Japanese Hiragana text overlay
 - Custom 3x3 Kernel
 - Line overlay
 - Mirror
@@ -39,7 +39,7 @@ The Fitlers are:
 - Sobel
 - Threshold
 
-Source code will be avaiable in coming months with the potential to use High-Level Synthesis to design custom filters.
+Source code will be available  in coming months with the potential to use High-Level Synthesis to design custom filters.
 Go from a C file to a Partial Bit file in 20 to 30 mins.
 
 ## Quick Start
